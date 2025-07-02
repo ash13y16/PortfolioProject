@@ -1,0 +1,21 @@
+import React, {useState} from "react";
+import promPhoto from "../images/stockphotoExample.jpeg";
+
+function HomePage () {
+
+    return (
+        <div className={"home"}>
+            <div className="name">
+                <h1>Ashley</h1>
+                <h1 className={"indented"}>Williams</h1>
+                <p>Welcome to my portfolio website</p>
+            </div>
+            <div className="profile-picture">
+                <img src={promPhoto} alt="Your Picture" />
+            </div>
+        </div>
+
+    );
+}
+
+export default HomePage;
