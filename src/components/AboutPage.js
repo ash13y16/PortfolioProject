@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import iceImage from "../images/stockphotoExample.jpeg";
+import iceImage from "../images/lakePhoto.PNG";
 // import * as emailjs from "emailjs-com";
 
 function AboutPage() {

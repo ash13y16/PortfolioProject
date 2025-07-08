@@ -1,7 +1,7 @@
 import React from "react";
 import stockPhoto from "../images/stockphotoExample.jpeg";
 import project1photo from "../images/stockphotoExample.jpeg";
-import project2photo from "../images/stockphotoExample.jpeg";
+import project2photo from "../images/WilliamsAndWilliams.png";
 
 function ProjectsPage() {
     return (
