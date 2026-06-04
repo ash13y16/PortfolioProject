@@ -261,6 +261,15 @@ h2 {
     justify-content: start;
 }
 
+#projects-title {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#hover-instrs {
+    padding: 0 0 0 6%;
+}
+
 .image-container {
     overflow: hidden;
     margin: 5px;
@@ -270,12 +279,12 @@ h2 {
     vertical-align: top;
 }
 
-.image-container img {
+.image-container img, .image-container video {
     opacity: 1;
     transition: opacity 0.5s ease;
 }
 
-.image-container img:hover {
+.image-container img:hover, .image-container video:hover {
     opacity: 0;
 }
 
@@ -327,9 +336,8 @@ h2 {
     height: 250px;
 }
 
-#project3, #project3 img{
-    width: 300px;
-    height: 450px;
+#project3, #project3 video{
+    width: 550px;
 }
 
 

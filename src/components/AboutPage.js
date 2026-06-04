@@ -59,9 +59,11 @@ function AboutPage() {
         <div className={"about"}>
             <div className="half">
                 <h1>About</h1>
-                <p className={"intro"}>Hi! My name is Ashley Williams. </p>
-                <p className={"paragraph"}>I am a freshman at University of Wisconsin - Madison.
-                    I am studying computer science. This website is mostly a
+                <p className={"intro"}>Look below for a little bit about me. </p>
+                <p className={"paragraph"}>I am a student at University of Wisconsin - Madison
+                    and I am studying computer science and data science, with a certificate in business.
+                    I am from Maryland,
+                    This website is mostly a
                     demonstration of some of my current skills, but I will be adding
                     to it throughout my journey at college! The issue with my
                     page right now is I need a bigger about section, so I am
