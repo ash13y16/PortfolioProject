@@ -60,14 +60,21 @@ function AboutPage() {
             <div className="half">
                 <h1>About</h1>
                 <p className={"intro"}>Look below for a little bit about me. </p>
-                <p className={"paragraph"}>I am a student at University of Wisconsin - Madison
-                    and I am studying computer science and data science, with a certificate in business.
-                    I am from Maryland,
-                    This website is mostly a
-                    demonstration of some of my current skills, but I will be adding
-                    to it throughout my journey at college! The issue with my
-                    page right now is I need a bigger about section, so I am
-                    considering putting some lorem ipsum.
+                <p className={"paragraph"}>I am an undergraduate at the University of Wisconsin - Madison
+                    pursuing a bachelor’s degree in Computer Science and Data Science, and a certificate in Business.
+                    When I am not on campus, I live in the DC area. I chose to study computer and data science
+                    because I am able to challenge myself in a way that I have not found in other areas of study.
+                    I love seeking out problems and coming up with innovative solutions, which is a skill that
+                    computer science requires of its students. Coding is often complicated and frustrating, and
+                    bugs are inevitable. This is why having a love of problem solving comes in handy when studying
+                    computer science. I do not get discouraged when I face setbacks, but rather look at them as
+                    opportunities to challenge myself to find a more creative solution. For example, designing my
+                    portfolio website had been an interesting challenge for me since I had never designed a website
+                    from scratch before. I had been working on the outline using a graphic design tool,
+                    but it wasn’t coming together the way I wanted it too. I took a break only to come back and
+                    find that my work hadn't saved. Instead of getting discouraged, I took it as an opportunity to
+                    start fresh and ended up being much happier with the new design then I had been with the old one.
+
                     <br/>
                     This seems like a good idea, or I could just keep typing
                     until I am finished or can't come up with anything else to
@@ -85,32 +92,8 @@ function AboutPage() {
                     convallis at bibendum dignissim, congue a mi.
                 </p>
                 <hr/>
-                <h2>Contact Me</h2>
-                <div className="half">
-                    <label>First Name</label>
-                    <input name="firstName" id={"firstVal"} className={"nameInput"} placeholder={"First Name"}/>
-                </div>
-                <div className="half">
-                    <label>Last Name</label>
-                    <input name={"lastName"} id={"secondVal"} className={"nameInput"} placeholder={"Last Name"}/>
-                </div>
-
-                <label>Email</label>
-                <input name="email" id={"emailVal"} placeholder={"email@example.com"}/>
-
-                <label>Message</label>
-                <textarea name="message" id={"messageVal"} className="message" placeholder={"Write your message here!"}/>
-
-                {/*<button className={"contactMeEmail"} onClick={sendEmail}>Send</button>*/}
-                <center>
-                    <div>
-                        <hr className={"half"} style={{marginLeft: "10px"}}/>
-                        <p id={"half"}>or</p>
-                        <hr className={"half"} style={{marginRight: "10px"}}/>
-                    </div>
-                </center>
                 <a href={"mailto:ashley.w8140@gmail.com"}>
-                    <button className={"contactMeEmail"} id={"openEmail"}>Open Email</button>
+                    <button className={"contactMeEmail"} id={"openEmail"}>Email Me</button>
                 </a>
             </div>
             <div className="half" id={"rightHalf"} style={{display: "flex", justifyContent: "flex-end" }}>
