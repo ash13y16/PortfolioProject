@@ -53,11 +53,16 @@ function ProjectsPage() {
                 <div className={"image-container"} id={"project3"}>
                     <video src={project3video} autoPlay="true" loop="true"/>
                     <div className={"imageText"}>
-                        <h1>Project 1</h1>
+                        <h1>Ash & Flame</h1>
+                        <h2>Timeframe</h2>
+                        <p>August 2025</p>
+                        <h2>Description</h2>
                         <p>
-                            This is a description of Project 1, including
-                            what it was, it's impact, when I worked on it,
-                            and other important details!
+                            This is a website that I designed and built
+                            using HTML, CSS, JavaScript, and React. It's purpose
+                            is to display a fictional small business that sells different
+                            varieties of candles. It is not launched, but the full display is
+                            available in this video.
                         </p>
                     </div>
                 </div>
