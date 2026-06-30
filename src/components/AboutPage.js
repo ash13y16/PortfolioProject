@@ -105,7 +105,8 @@ function AboutPage() {
                 </a>
             </div>
             <div className="half" style={{
-                position: "sticky", top: "30px"}}>
+                position: "sticky", top: "30px", paddingTop: "50px",
+                display: "flex", justifyContent: "center"}}>
                 <img src={iceImage} alt = "image"/>
             </div>
         </div>
