@@ -122,30 +122,17 @@ h1.indented {
 
 /* ABOUT CSS */
 
-#half {
-    display: inline-block;
-    width: 10%;
-    /*line-height: 0;*/
-    text-align: center;
+.about {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5% 5%;
 }
 
 .half {
     width: 50%;
-    display: inline-block;
     margin: 0;
     padding: 0;
-}
-
-#rightHalf {
-    /*justify-content: center;*/
-    padding: 2% 5%;
-    margin-left: 10px;
-}
-
-.about {
-    padding: 5% 5%;
-    display: flex;
-    /*justify-content: center;*/
 }
 
 p {
@@ -154,13 +141,19 @@ p {
     opacity: 75%;
 }
 
-p.paragraph {
+div.paragraph {
     width: 95%;
     padding-left: 5%;
     border-left: 2px solid var(--color5);
     position: relative;
     right: 5%;
     margin-bottom: 50px;
+}
+
+div.paragraph p {
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 p.intro {
@@ -245,9 +238,8 @@ h2 {
 }
 
 .about img {
-    width: auto;
-    max-width: 100%;
-    max-height: 50%;
+    width: 200px;
+    height: auto;
     box-shadow: 10px 10px 15px dimgrey;
 }
 
