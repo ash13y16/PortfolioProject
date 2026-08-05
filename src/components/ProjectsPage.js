@@ -12,8 +12,8 @@ function ProjectsPage() {
             </div>
 
             <div className={"projects"}>
-                <div className={"image-container"} id={"project1"}>
-                    <img src={project1photo} alt="Project Image"/>
+                <div className={"image-container"}>
+                    <img src={project2photo} alt="Project Image"/>
                     <div className={"imageText"}>
                         <h1>Portfolio Website</h1>
                         <h2>Timeframe</h2>
@@ -30,7 +30,7 @@ function ProjectsPage() {
                     </div>
                 </div>
 
-                <div className={"image-container"} id={"project2"}>
+                <div className={"image-container"}>
 
                     <a href={"https://williamsandwilliamspc.com/"}>
                     <img src={project2photo} alt="Project Image"/>
@@ -50,7 +50,7 @@ function ProjectsPage() {
                     </a>
                 </div>
 
-                <div className={"image-container"} id={"project3"}>
+                <div className={"image-container"}>
                     <video src={project3video} autoPlay="true" loop="true"/>
                     <div className={"imageText"}>
                         <h1>Ash & Flame</h1>
@@ -59,8 +59,7 @@ function ProjectsPage() {
                         <h2>Description</h2>
                         <p>
                             This is a website that I designed and built
-                            using HTML, CSS, JavaScript, and React. It's purpose
-                            is to display a fictional small business that sells different
+                            using HTML, CSS, JavaScript, and React. It displays a fictional small business that sells different
                             varieties of candles. It is not launched, but the full display is
                             available in this video.
                         </p>

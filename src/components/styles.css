@@ -251,6 +251,7 @@ h2 {
     margin: 0;
     display: flex;
     justify-content: start;
+    width: 100%;
 }
 
 #projects-title {
@@ -263,6 +264,7 @@ h2 {
 }
 
 .image-container {
+    width: 33%;
     overflow: hidden;
     margin: 5px;
     justify-content: center;
@@ -272,6 +274,7 @@ h2 {
 }
 
 .image-container img, .image-container video {
+    height: 250px;
     opacity: 1;
     transition: opacity 0.5s ease;
 }
@@ -309,26 +312,23 @@ h2 {
 }
 
 #project1, #project1 img{
-    width: 300px;
-    height: auto;
+    height: 250px;
 }
 
-#project1 {
-    border: 1px solid var(--color1);
-}
+/*#project1 {*/
+/*    border: 1px solid var(--color1);*/
+/*}*/
 
-#project1:hover {
-    border: 1px solid var(--color1);
-    border-top: 1px solid var(--color1);
-}
+/*#project1:hover {*/
+/*    border: 1px solid var(--color1);*/
+/*    border-top: 1px solid var(--color1);*/
+/*}*/
 
 #project2, #project2 img{
-    width: 450px;
     height: 250px;
 }
 
 #project3, #project3 video{
-    width: 450px;
     height: 250px;
 }
 
