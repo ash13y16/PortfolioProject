@@ -4,16 +4,16 @@ import iceImage from "../images/lakePhoto.PNG";
 
 function AboutPage() {
 
-    const [formData, setFormData] = useState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        message: "",
-    });
-
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
+    // const [formData, setFormData] = useState({
+    //     firstName: "",
+    //     lastName: "",
+    //     email: "",
+    //     message: "",
+    // });
+    //
+    // const handleChange = (e) => {
+    //     setFormData({ ...formData, [e.target.name]: e.target.value });
+    // };
 
     // const sendEmail = (e) => {
     //     e.preventDefault();
@@ -47,13 +47,13 @@ function AboutPage() {
     //     clearInputs();
     // };
 
-    const clearInputs = () => {
-        document.getElementById('firstVal').value = '';
-        document.getElementById('secondVal').value = '';
-        document.getElementById('emailVal').value = '';
-        document.getElementById('messageVal').value = '';
-    }
-
+    // const clearInputs = () => {
+    //     document.getElementById('firstVal').value = '';
+    //     document.getElementById('secondVal').value = '';
+    //     document.getElementById('emailVal').value = '';
+    //     document.getElementById('messageVal').value = '';
+    // }
+    //
 
     return (
         <div className={"about"}>
