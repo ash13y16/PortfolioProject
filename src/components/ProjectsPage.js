@@ -12,7 +12,7 @@ function ProjectsPage() {
 
             <div className={"projects"}>
                 <div className={"image-container"}>
-                    <img src={project2photo}/>
+                    <img src={project2photo} alt="Project 1"/>
                     <div className={"imageText"}>
                         <h1>Portfolio Website</h1>
                         <h2>Timeframe</h2>
@@ -32,7 +32,7 @@ function ProjectsPage() {
                 <div className={"image-container"}>
 
                     <a href={"https://williamsandwilliamspc.com/"}>
-                    <img src={project2photo}/>
+                    <img src={project2photo} alt="Project 2"/>
                     <div className={"imageText"}>
                         <h1>Williams & Williams Website</h1>
                         <h2>Timeframe</h2>

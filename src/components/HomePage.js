@@ -11,7 +11,7 @@ function HomePage () {
                 <p>Portfolio website</p>
             </div>
             <div className="profile-picture">
-                <img src={promPhoto}/>
+                <img src={promPhoto} alt="Headshot"/>
             </div>
         </div>
 

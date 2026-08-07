@@ -54,7 +54,7 @@ function AboutPage() {
             <div className="half" style={{
                 position: "sticky", top: "30px", paddingTop: "50px",
                 display: "flex", justifyContent: "center"}}>
-                <img src={iceImage}/>
+                <img src={iceImage} alt="Headshot"/>
             </div>
         </div>
     );
