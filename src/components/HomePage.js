@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import promPhoto from "../images/stockphotoExample.jpeg";
 
 function HomePage () {
@@ -11,7 +11,7 @@ function HomePage () {
                 <p>Portfolio website</p>
             </div>
             <div className="profile-picture">
-                <img src={promPhoto} alt="Your Picture" />
+                <img src={promPhoto}/>
             </div>
         </div>
 

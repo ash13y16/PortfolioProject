@@ -1,5 +1,4 @@
 import React from "react";
-import project1photo from "../images/stockphotoExample.jpeg";
 import project2photo from "../images/WilliamsAndWilliamsProject.png";
 import project3video from "../videos/CandleWebsiteVideo.mp4";
 
@@ -13,7 +12,7 @@ function ProjectsPage() {
 
             <div className={"projects"}>
                 <div className={"image-container"}>
-                    <img src={project2photo} alt="Project Image"/>
+                    <img src={project2photo}/>
                     <div className={"imageText"}>
                         <h1>Portfolio Website</h1>
                         <h2>Timeframe</h2>
@@ -33,7 +32,7 @@ function ProjectsPage() {
                 <div className={"image-container"}>
 
                     <a href={"https://williamsandwilliamspc.com/"}>
-                    <img src={project2photo} alt="Project Image"/>
+                    <img src={project2photo}/>
                     <div className={"imageText"}>
                         <h1>Williams & Williams Website</h1>
                         <h2>Timeframe</h2>

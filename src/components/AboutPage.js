@@ -1,60 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import iceImage from "../images/lakePhoto.PNG";
-// import * as emailjs from "emailjs-com";
 
 function AboutPage() {
-
-    // const [formData, setFormData] = useState({
-    //     firstName: "",
-    //     lastName: "",
-    //     email: "",
-    //     message: "",
-    // });
-    //
-    // const handleChange = (e) => {
-    //     setFormData({ ...formData, [e.target.name]: e.target.value });
-    // };
-
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-    //
-    //     emailjs
-    //         .send(
-    //             "service_8z36uzl",  // EmailJS Service ID
-    //             "template_z290mkf", // EmailJS Template ID
-    //             {
-    //                 firstName: formData.firstName,
-    //                 lastName: formData.lastName,
-    //                 email: formData.email,
-    //                 message: formData.message,
-    //             }, // Data to send (user input)
-    //             "Sm0dT1et-6DkUJi5i"  // EmailJS User ID
-    //         )
-    //         .then((response) => {
-    //             alert("Email sent successfully!");
-    //
-    //             setFormData({
-    //                 firstName: "",
-    //                 lastName: "",
-    //                 email: "",
-    //                 message: "",
-    //             });
-    //         })
-    //         .catch((error) => {
-    //             alert("Failed to send email.");
-    //         });
-    //
-    //     clearInputs();
-    // };
-
-    // const clearInputs = () => {
-    //     document.getElementById('firstVal').value = '';
-    //     document.getElementById('secondVal').value = '';
-    //     document.getElementById('emailVal').value = '';
-    //     document.getElementById('messageVal').value = '';
-    // }
-    //
-
     return (
         <div className={"about"}>
             <div className="half">
@@ -107,7 +54,7 @@ function AboutPage() {
             <div className="half" style={{
                 position: "sticky", top: "30px", paddingTop: "50px",
                 display: "flex", justifyContent: "center"}}>
-                <img src={iceImage} alt = "image"/>
+                <img src={iceImage}/>
             </div>
         </div>
     );
