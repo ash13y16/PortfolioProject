@@ -1,4 +1,5 @@
 import React from "react";
+import project1photo from "../images/MinnowDesigns.png"
 import project2photo from "../images/WilliamsAndWilliamsProject.png";
 import project3video from "../videos/CandleWebsiteVideo.mp4";
 
@@ -12,19 +13,18 @@ function ProjectsPage() {
 
             <div className={"projects"}>
                 <div className={"image-container"}>
-                    <img src={project2photo} alt="Project 1"/>
+                    <img src={project1photo} alt="Project 1"/>
                     <div className={"imageText"}>
-                        <h1>Portfolio Website</h1>
+                        <h1>Minnow Designs</h1>
                         <h2>Timeframe</h2>
                         <p>
-                            January 2025 - March 2025
+                            June 2026 - August 2026
                         </p>
                         <h2>Description</h2>
                         <p>
-                            This is my portfolio website. I used HTML, CSS,
-                            JavaScript, and React to create an interactive
-                            website with a smooth user interface to showcase
-                            myself, my projects, and my skills.
+                            I built Minnow Design's website using Shopify.
+                            I also managed product inventory and online display to
+                            ensure the website was easy to navigate and matched the company's branding.
                         </p>
                     </div>
                 </div>
