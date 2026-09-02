@@ -8,6 +8,7 @@ function AboutPage() {
                 <h1>About</h1>
                 <p className={"intro"}>Look below for a little bit about me. </p>
                 <div className={"paragraph"}>
+                    <h2>My Experience</h2>
                     <p>I am an undergraduate at the University of Wisconsin - Madison pursuing a bachelor’s degree in
                         Computer Science and Data Science, and a certificate in Business. I am a dedicated student who
                         has been on the Dean’s Honors List for three semesters, and I have worked on classroom projects
@@ -24,8 +25,8 @@ function AboutPage() {
                         ensure it was fully customizable and correctly displayed the brand’s image, message, and
                         products to customers. Additionally, I thoroughly communicated with management to facilitate
                         effective and efficient asynchronous work, resulting in a faster launch of the website.</p>
-                    <p>Throughout my time learning and working with these skills, I have been a passionate and dedicated
-                        student who actively seeks out answers to questions and new challenges.</p>
+                    <br/>
+                    <h2>Why Computer Science?</h2>
                     <p>I chose to study computer and data science because I love seeking out problems and coming up with
                         innovative solutions, which is a skill that computer science requires of its students. Coding is
                         often complicated and frustrating, and bugs are inevitable. This is why having a love of problem
@@ -37,14 +38,6 @@ function AboutPage() {
                         break only to come back and find that my work hadn't saved. Instead of getting discouraged, I
                         took it as an opportunity to start fresh and ended up being much happier with the new design
                         then I had been with the old one.</p>
-                    <p>I am a dedicated team member who goes above and beyond to ensure my team is working efficiently.
-                        I worked as a lifeguard at Headfirst's largest summer camp in the DC area. At this position, I
-                        completed my required tasks of enforcing safety protocols, ensuring the well-being of campers
-                        and helping complete day to day operations, and I went beyond these expectations by helping my
-                        team leader complete weekly swim reports. I communicated with swim instructors and team members
-                        to complete individual swim reports for over 150 campers each week, which highlighted the
-                        results of instructional swim with campers and kept parents informed about their child's
-                        swimming abilities.</p>
                 </div>
                 <hr/>
                 <a href={"mailto:ashley.w8140@gmail.com"}>
