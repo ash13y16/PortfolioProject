@@ -1,5 +1,5 @@
 import React from "react";
-import promPhoto from "../images/stockphotoExample.jpeg";
+import promPhoto from "../images/headshot1.png";
 
 function HomePage () {
 

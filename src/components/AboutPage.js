@@ -1,5 +1,5 @@
 import React from "react";
-import iceImage from "../images/lakePhoto.PNG";
+import iceImage from "../images/headshot1.png";
 
 function AboutPage() {
     return (
