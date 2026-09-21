@@ -24,7 +24,7 @@ body {
 
 a {
     color: var(--color5);
-    margin: 0 8px;
+    margin: 0 5px;
 }
 
 a:hover {
