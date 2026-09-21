@@ -8,8 +8,8 @@ function ProjectsPage() {
         <div>
             <h1 className={"projects"} id={"projects-title"}>Projects</h1>
             <div className={"projects"} id={"hover-instrs"}>
-                Hover over an image to see more details. <a href={"https://github.com/ash13y16"}>Click here to view my
-                github.</a>
+                Hover over an image to see more details. Click <a href={"https://github.com/ash13y16"}>here</a> to view my
+                github.
             </div>
 
             <div className={"projects"}>
