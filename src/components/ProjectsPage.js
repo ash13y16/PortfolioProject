@@ -8,7 +8,7 @@ function ProjectsPage() {
         <div>
             <h1 className={"projects"} id={"projects-title"}>Projects</h1>
             <div className={"projects"} id={"hover-instrs"}>
-                Hover over an image to see more details. Click&nbsp;<a href={"https://github.com/ash13y16"}> here </a>&nbsp;to view my
+                Hover over an image to see more details. Click<a href={"https://github.com/ash13y16"}> here </a>to view my
                 github.
             </div>
 
